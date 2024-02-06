@@ -62,19 +62,19 @@ declares stringList to be a vector container and the component type to be string
 ##### DECLARING VECTOR OBJECTS
 * The class vector contains several constructors, including the default constructor.
 Therefore, a vector container can be declared and initialized several ways. Table 21-1
-describes how a vector container of a specific type can be declared and initialized.
- Methods
-![alt text](image.png)Table 21-1 Vector Constructor Initialization 
+describes how a vector container of a specific type can be declared and initialized Methods.
+
+![alt text](image.png)
+
 * Now that we know how to declare a vector sequence container, let us discuss how to
 manipulate the data stored in a vector container. In order to manipulate the data in a vector container, we must know the following basic operations:
     * Item insertion
     * Item deletion
     * Stepping through the elements of a vector container
 
-![alt text](image-1.png) TABLE 21-2 Operations to Access the Elements of a Vector Container
+![alt text](image-1.png)
 
-EXAMPLE 21-1(Recall that in C++, arrays start at location 0. Similarly,
-the first element in a vector container is at location 0.)
+EXAMPLE 21-1(Recall that in C++, arrays start at location 0. Similarly, the first element in a vector container is at location 0.)
 Consider the following statement, which declares intList to be a vector container of
 size 5 with an element type of int:
 
@@ -90,12 +90,14 @@ Similarly, you can use a for loop to output the elements of intList
 of elements currently in the container, the maximum number of elements that can be
 inserted into a container, and so on. Table 21-3 describes some of these operations. The
 name of the function is shown in bold. (Suppose that vecCont is a vector container.)
-![alt text](image-2.png)TABLE 21-3 Operations to Determine the Size of a Vector Container
+
+![alt text](image-2.png)
 
 * The class vector also contains member functions that can be used to manipulate the
 data, as well as insert and delete items, in a vector container. Suppose that vecList is a container of type vector. Item insertion and deletion in vecList are accomplished using the operations given in Table 21-4. These operations are implemented as member functions of the class vector and are shown in bold. Table 21-4 also shows how these operations are used.
+
 ![alt text](image-3.png)               
- TABLE 21-4 Various Operations on a Vector Container
+
 
 EXAMPLE 21-2
 The following statement declares intList to be a vector object of size 0:
